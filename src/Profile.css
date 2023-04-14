@@ -1,0 +1,11 @@
+.profile {
+    display: flex;
+    height: 80vh;
+    align-items: top;
+    justify-content: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    
+}
