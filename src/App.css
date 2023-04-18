@@ -1,3 +1,9 @@
+/* for debug purposes: show outline for each
+* {
+  outline: 1px solid red;
+}
+*/
+
 body {
   font-family: Helvetica;
   margin: 0;
@@ -6,6 +12,7 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 nav {
@@ -14,10 +21,12 @@ nav {
   position: sticky;
   top: 0;
   padding: 1.2rem;
+  z-index: 1;
 }
 
 .nav-item {
   padding: 0.5rem;
+  z-index:3;
 }
 
 .nav-item:hover {
@@ -29,6 +38,7 @@ nav {
 .dropdown {
   position: relative;
   display: inline-block;
+  z-index:1;
 }
 
 .dropdown:hover .dropdown-content {
@@ -41,7 +51,7 @@ nav {
   position: absolute;
   padding: 0.5rem;
   left: -0.5rem;
-  z-index: 1;
+  z-index:2;
 }
 
 .dropdown-content p{

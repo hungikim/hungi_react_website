@@ -31,7 +31,6 @@ function Navbar(){
             <p class='nav-item'>Item2</p>
           </div>
         </div>
-        <span class='nav-item'>Song Collection</span>&nbsp;&nbsp;
       </div>
       <div class='nav-right'>
         <span class='nav-item'>Item4</span>&nbsp;&nbsp;
