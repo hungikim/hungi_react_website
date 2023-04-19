@@ -15,7 +15,7 @@
     width: 150px;
     height: 150px;
     margin: auto;
-    background-image: url('./shibe.jpg');
+    background-image: url('./assets/shibe.jpg');
     background-size: contain;
     border-radius: 50%;
     transition: 0.5s;
