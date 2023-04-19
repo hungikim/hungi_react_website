@@ -4,8 +4,9 @@ export default function Profile() {
     return (
       <div class='profile'>
         <div class='profile-photo-container'>
-            <img class='profile-photo' src='src/assets/shibe.jpg' width='150px' height='150px' />
+          <div class='profile-photo'>
             <button class='contact-btn'>Contact</button>
+          </div>
         </div>
         <div class='profile-text-container'>
             <div class='profile-text'>

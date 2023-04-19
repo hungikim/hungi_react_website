@@ -1,47 +1,38 @@
 .profile {
     display: flex;
     position: relative;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .profile > * {
-    outline: dotted 1px red;
-    flex-basis: 40%;
+    flex: 1 1 300px;
     text-align: center;
 }
 
-.profile-photo-container {
-    position: relative;
-}
-
 .profile-photo {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-image: url('src/assets/shibe.jpg');
+    background-size: contain;
     border-radius: 50%;
     transition: 0.5s;
+    display: flex;
 }
 
 .profile-photo:hover {
     opacity: 0.4;
 }
-
-.profile-photo:hover + .contact-btn {
+.profile-photo:hover .contact-btn {
     opacity: 1;
 }
 
 .contact-btn {
+    margin: auto;
     opacity: 0;
     transition: 0.5s;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border: none;
-    background: turquoise;
     padding: 1rem;
-    border-radius: 10px;
     font-size: 1rem;
-}
-
-.contact-btn:hover {
-    opacity: 1;
 }
